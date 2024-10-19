@@ -38,8 +38,6 @@ import base64
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 
-pytesseract.pytesseract.tesseract_cmd = r'/app/.apt/usr/bin/tesseract'
-
 # Function to perform OCR and detect label-box pairs
 def detect_label_box_pairs(image):
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
