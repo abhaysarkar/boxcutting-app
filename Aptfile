@@ -1,9 +1,8 @@
-libpng16-16
 tesseract-ocr
-tesseract-ocr-eng
-libtesseract-dev
 libleptonica-dev
-libgif-dev
+libtiff5-dev
+libjpeg-dev
+libpng-dev
 
 
 
