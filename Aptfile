@@ -1,7 +1,7 @@
 tesseract-ocr
 tesseract-ocr-eng
 libtesseract-dev
-libpng-dev            # Replaced libpng12-0 with libpng-dev
+libpng-dev
 libjpeg62-turbo
 libtiff5
 libgomp1
