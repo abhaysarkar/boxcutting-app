@@ -37,9 +37,9 @@ import numpy as np
 import base64
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
+import os
 
-
-pytesseract.pytesseract.tesseract_cmd = '/app/vendor/tesseract-ocr/bin/tesseract'
+os.environ['LD_LIBRARY_PATH'] = '/app/vendor/tesseract-ocr/lib:' + os.environ.get('LD_LIBRARY_PATH', '')
 
 
 # Function to perform OCR and detect label-box pairs
@@ -101,8 +101,8 @@ import numpy as np
 import base64
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
-
-pytesseract.pytesseract.tesseract_cmd = '/app/vendor/tesseract-ocr/bin/tesseract'
+import os
+os.environ['LD_LIBRARY_PATH'] = '/app/vendor/tesseract-ocr/lib:' + os.environ.get('LD_LIBRARY_PATH', '')
 
 # Function to perform OCR and detect label-box pairs
 def detect_label_box_pairs(image):
