@@ -1,6 +1,9 @@
 tesseract-ocr=4.1.1
 tesseract-ocr-eng
 libtesseract-dev
+tesseract-ocr
+libtiff-dev
+libleptonica-dev
 
 
 
