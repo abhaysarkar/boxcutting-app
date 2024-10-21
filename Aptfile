@@ -1,19 +1,13 @@
-# libpng16-16
-# tesseract-ocr
-# tesseract-ocr-eng
-# libtesseract-dev
-# libleptonica-dev
-# libgif-dev
+libpng16-16
+tesseract-ocr
+tesseract-ocr-eng
+libtesseract-dev
+libleptonica-dev
+libgif-dev
 
 
 
-# Install dependencies
-libpng-dev
-wget
-curl
 
-# Call the custom script to install libpng12
-./install_libpng12.sh
 
 
 
