@@ -141,8 +141,8 @@ def list_cropped_images(request):
     count = 0
 
     for cropped in cropped_images:
-        text = pytesseract.image_to_string(cropped).strip()
-        print(text)
+        # text = pytesseract.image_to_string(cropped).strip()
+        # print(text)
         # Search for label followed by colon
         cropped_images[count] = image_to_base64(cropped)
         count = count+1      
