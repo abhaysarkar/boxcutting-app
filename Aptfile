@@ -1,9 +1,6 @@
-libtiff-dev
-zlib1g
-libpng16-16
+tesseract-ocr
+tesseract-ocr-eng
 libtesseract-dev
-libleptonica-dev
-
 
 
 
