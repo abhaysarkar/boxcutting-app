@@ -1,5 +1,4 @@
-libgif-dev
-tesseract-ocr
+tesseract-ocr=4.1.1
 tesseract-ocr-eng
 libtesseract-dev
 
