@@ -1,11 +1,12 @@
 tesseract-ocr
 tesseract-ocr-eng
 libtesseract-dev
-libpng12-0              # To fix the missing libpng12.so.0 error
-libjpeg62-turbo         # Adds JPEG image support
-libtiff5                # Adds TIFF image support
-libgomp1                # OpenMP support for Tesseract
-libleptonica-dev        # Required by Tesseract for image handling
+libpng-dev             # Replace libpng12-0 with libpng-dev
+libjpeg62-turbo        # Adds JPEG image support
+libtiff5               # Adds TIFF image support
+libgomp1               # OpenMP support for Tesseract
+libleptonica-dev       # Required by Tesseract for image handling
+
 
 
 
