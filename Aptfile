@@ -1,7 +1,9 @@
+libpng16-16
 tesseract-ocr
 tesseract-ocr-eng
 libtesseract-dev
-libpng16-16
+libleptonica-dev
+libgif-dev
 
 
 
