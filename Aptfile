@@ -1,9 +1,7 @@
-libgif-dev
-libpng-dev
 tesseract-ocr
 tesseract-ocr-eng
 libtesseract-dev
-libleptonica-dev
+
 
 
 
