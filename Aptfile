@@ -1,4 +1,3 @@
-# libpng12-dev
 # libpng16-16
 # tesseract-ocr
 # tesseract-ocr-eng
@@ -7,15 +6,14 @@
 # libgif-dev
 
 
+
 # Install dependencies
 libpng-dev
 wget
 curl
 
-# Script to install libpng12 from an alternative source
-echo "deb http://archive.ubuntu.com/ubuntu/ trusty main universe" >> /etc/apt/sources.list
-apt-get update
-apt-get install -y libpng12-0
+# Call the custom script to install libpng12
+./install_libpng12.sh
 
 
 
