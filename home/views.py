@@ -67,7 +67,7 @@ def image_to_base64(cropped):
 def map_cropped_images(cropped_images):
     image_key_map = {}
     for cropped in cropped_images:
-        text = pytesseract.image_to_string(cropped).strip()
+        text = pytesseract.image_to_string(cropped, config="--dpi 300").strip()
         print(text)
         # Search for label followed by colon
         if ":" in text:
